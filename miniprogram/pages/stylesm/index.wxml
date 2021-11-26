@@ -1,9 +1,10 @@
 <!--pages/stylesm/index.wxml-->
 
+<image src="../../static/image/home-banner.png" mode="aspectFill" style="height: 260px; width: 100%;"></image>
 
-<view class="m-flex-c m-gap-15">
-  <view class="c-flex-item m-p-relative" wx:for="{{list}}" wx:key="index">
-    <image src="../../static/image/bg-basic@3x.png" mode="aspectFit" style="height: 78px;"></image>
+<view class="m-flex-c m-gap-15 pd-side-16 m-top-32">
+  <view class="c-flex-item m-p-relative" wx:for="{{list}}" wx:key="index" style="width: 100%;">
+    <image src="../../static/image/bg-basic@3x.png" mode="aspectFit" style="height: 78px; width: 100%;"></image>
     <view class="m-p-absolute m-flex-r m-jc-sb pd-side-20">
       <view class="m-flex-c m-ai-start m-gap-10">
         <text>{{item.name}}</text>
