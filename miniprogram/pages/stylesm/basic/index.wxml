@@ -1,0 +1,9 @@
+<!--pages/stylesm/basic/index.wxml-->
+
+<view></view>
+
+<view class="m-flex-c">
+  <view class="m-flex-item m-jc-sb">
+    <text></text>
+  </view>
+</view>

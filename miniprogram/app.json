@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/stylesm/index",
+    "pages/stylesm/basic/index",
     "pages/component/index",
     "pages/about/index"
   ],
