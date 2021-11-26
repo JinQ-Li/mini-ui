@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "push": "scripts/workspaces/auto-commit.sh"
   },
   "keywords": [],
   "author": "",
   "license": "",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "miniprogram-api-typings": "^2.8.3-1"
+    "miniprogram-api-typings": "^2.8.3-1",
+    "vuepress": "^2.0.0-beta.27"
   }
 }

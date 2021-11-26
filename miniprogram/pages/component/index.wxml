@@ -1,0 +1,5 @@
+<!--pages/component/index.wxml-->
+
+<view class="m-flex-c">
+  <view class="c-flex-item"></view>
+</view>

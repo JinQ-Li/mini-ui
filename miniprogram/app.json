@@ -1,8 +1,29 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/stylesm/index",
+    "pages/component/index",
+    "pages/about/index"
   ],
+  "tabBar": {
+    "custom": false,
+    "color": "#8E8E93",
+    "selectedColor": "#3C64F6",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/stylesm/index",
+        "iconPath": "static/image/icon-Component-Selected.png",
+        "selectedIconPath": "static/image/icon-Component-Selected.png",
+        "text": "样式"
+      },
+      {
+        "pagePath": "pages/about/index",
+        "iconPath": "static/image/icon-about-Unselected.png",
+        "selectedIconPath": "static/image/icon-about-Unselected.png",
+        "text": "关于"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

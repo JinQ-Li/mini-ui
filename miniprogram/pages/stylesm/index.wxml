@@ -1,0 +1,15 @@
+<!--pages/stylesm/index.wxml-->
+
+
+<view class="m-flex-c m-gap-15">
+  <view class="c-flex-item m-p-relative" wx:for="{{list}}" wx:key="index">
+    <image src="../../static/image/bg-basic@3x.png" mode="aspectFit" style="height: 78px;"></image>
+    <view class="m-p-absolute m-flex-r m-jc-sb pd-side-20">
+      <view class="m-flex-c m-ai-start m-gap-10">
+        <text>{{item.name}}</text>
+        <text>{{item.des}}</text>
+      </view>
+      <image src="../../static/svgs/icon-basic.svg" style="width: 46px; height: 46px;"></image>
+    </view>
+  </view>
+</view>
