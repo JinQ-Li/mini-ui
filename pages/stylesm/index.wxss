@@ -1,0 +1,5 @@
+/* pages/stylesm/index.wxss */
+page {
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,22 @@
+<!--pages/stylesm/index.wxml-->
+
+<view class="m-flex-r m-p-relative siz-bor m-circular-angle-8" style="height: 100%;">
+  <image src="../../static/image/home-banner.png" mode="scaleToFill" style="width: 100%;height: 200px;"></image>
+  <view class="m-p-absolute m-flex-c m-ai-start siz-bor" style="top:52px;left:20px">
+    <text class="m-fc-white" style="font-size: 26px;">Mini UI</text>
+    <text class="m-fc-white" style="font-size: 16px;margin-top: 5px;">组件化微信生态运营组件</text>
+  </view>
+</view>
+
+<view class="m-flex-c m-gap-15 pd-side-16 m-top-20 m-bottom-32">
+  <view class="c-flex-item m-p-relative m-circular-angle-8" wx:for="{{list}}" bindtap="navigate" data-path="{{item.path}}" wx:key="index" style="width: 100%;">
+    <image src="../../static/image/bg-basic@3x.png" mode="scaleToFill" style="height: 78px; width: 100%;"></image>
+    <view class="m-p-absolute m-flex-r m-jc-sb pd-side-20">
+      <view class="m-flex-c m-ai-start m-gap-10">
+        <text class="m-fc-white">{{item.name}}</text>
+        <text class="m-fc-white" style="font-size: 12px;">{{item.des}}</text>
+      </view>
+      <image src="../../static/svgs/{{item.icon}}.svg" style="width: 46px; height: 46px;"></image>
+    </view>
+  </view>
+</view>

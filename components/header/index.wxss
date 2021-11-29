@@ -1,0 +1,37 @@
+/* components/header/index.wxss */
+.header-wrap {
+  height: 100px;
+  width: 100%;
+  color: #000000;
+  box-sizing: border-box;
+}
+
+.header-temp {
+  height: 100px;
+}
+
+.header-fixed {
+  width: 100%;
+  padding-top: 56px;
+  padding-bottom: 20px;
+  text-align: center;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  font-size: 17px;
+  font-family: SFProDisplay-Medium, SFProDisplay;
+  font-weight: 500;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.icon-arrow-left {
+  position: absolute;
+  left: 16px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}

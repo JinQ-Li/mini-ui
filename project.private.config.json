@@ -1,0 +1,48 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/stylesm/basic/index",
+          "pathName": "pages/stylesm/basic/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/stylesm/index",
+          "pathName": "pages/stylesm/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/stylesm/composition/index",
+          "pathName": "pages/stylesm/composition/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/stylesm/navigation/index",
+          "pathName": "pages/stylesm/navigation/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/stylesm/view/index",
+          "pathName": "pages/stylesm/view/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

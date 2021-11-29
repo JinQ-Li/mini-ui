@@ -1,16 +1,11 @@
 {
-  "name": "miniprogram-ts-less-quickstart",
+  "name": "mini-ui",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "license": "",
-  "dependencies": {},
+  "main": "index.js",
+  "repository": "https://github.com/JinQ-Li/mini-ui.git",
+  "author": "孑然一身 <ljqrongyao@outlook.com>",
+  "license": "MIT",
   "scripts": {
     "push": "scripts/workspaces/auto-commit.sh"
-  },
-  "devDependencies": {
-    "miniprogram-api-typings": "^2.8.3-1",
-    "vuepress": "^2.0.0-beta.27"
   }
 }

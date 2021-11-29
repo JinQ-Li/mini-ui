@@ -1,0 +1,9 @@
+<!--pages/stylesm/navigation/index.wxml-->
+<m-header />
+
+<view class="m-flex-c mar-side-30 m-top-20 m-gap-20">
+  <view class="m-flex-item m-flex-r m-jc-sb m-circular-angle-12 pd-side-20 siz-bor" style="width: 100%; background-color: #3C64F605; height: 54px;" wx:for="{{list}}" wx:key="index">
+    <text>{{item.text}}</text>
+    <image src="/static/svgs/arrow-round.svg" style="width: 20px;"></image>
+  </view>
+</view>
