@@ -1,16 +1,12 @@
 <!--pages/stylesm/basic/index.wxml-->
-<m-header title="{{headerTitle}}" />
-
-<view class="m-flex-c m-ai-start pd-side-16">
-  <view class="m-flex-r">
-    <view class="edge-left-box"></view>
-    <text class="m-fc-3C64F6 m-left-8 m-fz-20">Basic</text>
-  </view>
+<view class="m-flex-r pd-side-16 m-top-20">
+  <view class="edge-left-box"></view>
+  <text class="m-fc-3C64F6 m-left-8 m-fz-20">Basic</text>
 </view>
 <text class="pd-side-30 m-fc-black44 m-fz-12">基础组件，常用组件</text>
 
 <view class="m-flex-c pd-side-30 m-gap-20 m-top-20">
-  <view class="m-flex-item m-flex-r m-jc-sb m-circular-angle-12 pd-side-20 siz-bor" style="width: 100%; background-color: #3C64F605; height: 54px;" wx:for="{{list}}" wx:key="index" data-path="{{item.path}}" bindtap="navigate">
+  <view class="m-flex-item m-flex-r m-jc-sb m-circular-angle-12 pd-side-20 siz-bor" style="width: 100%; background-color: #3C64F610; height: 54px;" wx:for="{{list}}" wx:key="index" data-path="{{item.path}}" bindtap="navigate">
     <text>{{item.text}}</text>
     <image src="/static/svgs/arrow-round.svg" style="width: 20px;"></image>
   </view>

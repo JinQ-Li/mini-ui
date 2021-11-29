@@ -1,7 +1,5 @@
 <!--pages/stylesm/basic/button/index.wxml-->
-<m-header title="{{headerTitle}}" />
-
-<view class="m-flex-c m-ai-start pd-side-16 m-gap-40">
+<view class="m-flex-c m-ai-start pd-side-16 m-gap-40 m-top-20">
   <view class="m-flex-c m-ai-start">
     <view class="m-flex-r">
       <view class="edge-left-box"></view>
