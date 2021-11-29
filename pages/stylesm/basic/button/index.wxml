@@ -1,0 +1,12 @@
+<!--pages/stylesm/basic/button/index.wxml-->
+<m-header title="{{headerTitle}}" />
+
+<view class="m-flex-c m-ai-start pd-side-16 m-gap-40">
+  <view class="m-flex-c m-ai-start">
+    <view class="m-flex-r">
+      <view class="edge-left-box"></view>
+      <text class="m-left-8 m-fz-20 m-fc-3C64F6">按钮颜色</text>
+    </view>
+    <view class="m-flex-r"></view>
+  </view>
+</view>

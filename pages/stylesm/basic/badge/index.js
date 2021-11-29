@@ -1,26 +1,11 @@
-// pages/stylesm/basic/index.js
+// pages/stylesm/basic/badge/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    headerTitle: "Mini UI",
-    list: [
-      { text: "Button 按钮", path: "button" },
-      { text: "Icon 图标", path: "icon" },
-      { text: "Text 文本", path: "text" },
-      { text: "Tag 标签", path: "tag" },
-      { text: "Badge 徽章", path: "badge" },
-      { text: "Loading 加载", path: "loading" },
-      { text: "Avatar 头像", path: "avatar" },
-    ]
-  },
 
-  navigate: function (e) {
-    wx.navigateTo({
-      url: `/pages/stylesm/basic/${e.currentTarget.dataset.path}/index`,
-    })
   },
 
   /**

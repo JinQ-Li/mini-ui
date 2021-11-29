@@ -2,6 +2,13 @@
   "pages": [
     "pages/stylesm/index",
     "pages/stylesm/basic/index",
+    "pages/stylesm/basic/button/index",
+    "pages/stylesm/basic/icon/index",
+    "pages/stylesm/basic/text/index",
+    "pages/stylesm/basic/tag/index",
+    "pages/stylesm/basic/badge/index",
+    "pages/stylesm/basic/loading/index",
+    "pages/stylesm/basic/avatar/index",
     "pages/stylesm/composition/index",
     "pages/stylesm/view/index",
     "pages/stylesm/navigation/index",

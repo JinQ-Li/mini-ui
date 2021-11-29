@@ -2,7 +2,7 @@
 <view class="header-wrap">
   <view class="header-temp"></view>
   <view class="header-fixed" style="top: 0; left: 0;">
-    <view class="icon-arrow-left">返回</view>
+    <view class="icon-arrow-left" bindtap="headerBack">返回</view>
     <view class="title">{{title}}</view>
   </view>
 </view>

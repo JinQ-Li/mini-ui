@@ -50,6 +50,10 @@ page {
   gap: 20px;
 }
 
+.m-gap-40 {
+  gap: 40px;
+}
+
 /* 定位 */
 .m-p-fixed {
   position: fixed;

@@ -1,0 +1,2 @@
+<!--pages/stylesm/basic/avatar/index.wxml-->
+<m-header title="{{headerTitle}}" />

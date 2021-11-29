@@ -1,0 +1,2 @@
+<!--pages/stylesm/basic/icon/index.wxml-->
+<m-header title="{{headerTitle}}" />

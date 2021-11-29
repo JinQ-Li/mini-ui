@@ -1,0 +1,2 @@
+<!--pages/stylesm/basic/badge/index.wxml-->
+<m-header title="{{headerTitle}}" />
