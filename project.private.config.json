@@ -47,6 +47,18 @@
           "pathName": "pages/stylesm/basic/button/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/stylesm/basic/icon/index",
+          "pathName": "pages/stylesm/basic/icon/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/stylesm/basic/text/index",
+          "pathName": "pages/stylesm/basic/text/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

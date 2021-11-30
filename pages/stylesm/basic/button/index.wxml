@@ -1,10 +1,83 @@
 <!--pages/stylesm/basic/button/index.wxml-->
 <view class="m-flex-c m-ai-start pd-side-16 m-gap-40 m-top-20">
-  <view class="m-flex-c m-ai-start">
+  <view class="m-flex-c m-ai-start" style="width: 100%;">
     <view class="m-flex-r">
       <view class="edge-left-box"></view>
       <text class="m-left-8 m-fz-20 m-fc-3C64F6">按钮颜色</text>
     </view>
-    <view class="m-flex-r"></view>
+    <view class="m-flex-r m-gap-29 m-top-16" style="width: 100%;">
+      <view class="m-bg-main m-r-4 flex-center m-circular-angle-4 m-fc-white" style="height: 32px;">主题</view>
+      <view class="m-bg-grey m-r-4 flex-center m-circular-angle-4 m-fc-black44" style="height: 32px;">灰色</view>
+      <view class="m-bg-black33 m-r-4 flex-center m-circular-angle-4 m-fc-white" style="height: 32px;">黑色</view>
+      <view class="m-bg-white m-r-4 btn-shadow flex-center m-circular-angle-4" style="height: 32px;">雅白</view>
+    </view>
   </view>
+  <!--  -->
+  <view class="m-flex-c m-ai-start" style="width: 100%;">
+    <view class="m-flex-r">
+      <view class="edge-left-box"></view>
+      <text class="m-left-8 m-fz-20 m-fc-3C64F6">按钮形状</text>
+    </view>
+    <view class="m-flex-r m-top-16 m-jc-sb" style="width: 100%;">
+      <view class="m-bg-grey m-r-4 flex-center m-circular-angle-4 m-fc-black44" style="height: 32px;">默认</view>
+      <view class="m-bg-grey m-r-4 flex-center m-fc-black44" style="height: 32px;">直角</view>
+      <view class="m-bg-grey m-r-4 flex-center m-circular-angle-16 m-fc-black44" style="height: 32px;">圆角</view>
+      <view class="m-bg-grey btn-shadow flex-center m-circular-angle-50 m-fc-black44" style="width: 32px;height: 32px;"></view>
+    </view>
+  </view>
+  <!--  -->
+  <view class="m-flex-c m-ai-start" style="width: 100%;">
+    <view class="m-flex-r">
+      <view class="edge-left-box"></view>
+      <text class="m-left-8 m-fz-20 m-fc-3C64F6">按钮尺寸</text>
+    </view>
+    <view class="m-flex-r m-gap-29 m-top-16" style="width: 100%;">
+      <view class="m-bg-grey m-r-3 flex-center m-circular-angle-10 m-fz-10 m-fc-black44" style="height: 20px;">小尺寸</view>
+      <view class="m-bg-grey m-r-3 flex-center m-circular-angle-25 m-fc-black44" style="height: 32px;">默认</view>
+      <view class="m-bg-grey m-r-3 flex-center m-circular-angle-25 m-fc-black44" style="height: 44px;">大尺寸</view>
+    </view>
+  </view>
+  <!--  -->
+  <view class="m-flex-c m-ai-start" style="width: 100%;">
+    <view class="m-flex-r">
+      <view class="edge-left-box"></view>
+      <text class="m-left-8 m-fz-20 m-fc-3C64F6">按钮阴影</text>
+    </view>
+    <view class="m-flex-r m-gap-29 m-top-16" style="width: 100%;">
+      <view class="m-bg-main m-r-4 btn-shadow-main flex-center m-circular-angle-4 m-fc-white" style="height: 32px;">主题</view>
+      <view class="m-bg-grey m-r-4 btn-shadow-grey flex-center m-circular-angle-4 m-fc-black44" style="height: 32px;">灰色</view>
+      <view class="m-bg-black33 m-r-4 btn-shadow-black flex-center m-circular-angle-4 m-fc-white" style="height: 32px;">黑色</view>
+      <view class="m-bg-white m-r-4 btn-shadow-white flex-center m-circular-angle-4 m-fc-black" style="height: 32px;">雅白</view>
+    </view>
+  </view>
+  <!--  -->
+  <view class="m-flex-c m-ai-start" style="width: 100%;">
+    <view class="m-flex-r">
+      <view class="edge-left-box"></view>
+      <text class="m-left-8 m-fz-20 m-fc-3C64F6">按钮图标</text>
+    </view>
+    <view class="m-flex-r m-gap-29 m-top-16" style="width: 100%;">
+      <view class="m-bg-main m-r-2 flex-center m-circular-angle-4 m-fc-white" style="height: 32px;">图标</view>
+      <view class="m-bg-main m-r-2 flex-center m-circular-angle-4 m-fc-white" style="height: 32px;">加载</view>
+    </view>
+  </view>
+  <!--  -->
+  <view class="m-flex-c m-ai-start" style="width: 100%;">
+    <view class="m-flex-r">
+      <view class="edge-left-box"></view>
+      <text class="m-left-8 m-fz-20 m-fc-3C64F6">按钮镂空</text>
+    </view>
+    <view class=m-top-16" style="width: 100%; display: grid; grid-template-rows:32px;grid-template-columns: 1fr 1fr 1fr 1fr; row-gap: 16px; column-gap: 29px;">
+      <view class="flex-center m-circular-angle-4" style="height: 32px;">主题</view>
+      <view class="flex-center m-circular-angle-4" style="height: 32px;">灰色</view>
+      <view class="flex-center m-circular-angle-4" style="height: 32px;">黑色</view>
+      <view class="flex-center m-circular-angle-4" style="height: 32px;">雅白</view>
+      <view class="flex-center m-circular-angle-4" style="height: 32px;">主题</view>
+      <view class="flex-center m-circular-angle-4" style="height: 32px;">灰色</view>
+      <view class="flex-center m-circular-angle-4" style="height: 32px;">黑色</view>
+      <view class="flex-center m-circular-angle-4" style="height: 32px;">雅白</view>
+    </view>
+  </view>
+  <!--  -->
+  <view class="m-top-32"></view>
 </view>

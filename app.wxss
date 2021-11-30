@@ -15,6 +15,18 @@ page {
 }
 
 /* // 布局 flex */
+.m-r-4 {
+  width: calc(100% / 4);
+}
+
+.m-r-3 {
+  width: calc(100% / 3);
+}
+
+.m-r-2 {
+  width: calc(100% / 2);
+}
+
 .m-flex-c {
   display: flex;
   flex-direction: column;
@@ -30,12 +42,16 @@ page {
   align-items: center;
 }
 
+.m-flex-wrap {
+  flex-wrap: wrap;
+}
+
 .m-jc-s {
   justify-content: flex-start;
 }
 
 .m-jc-sb {
-  justify-content: space-between;
+  justify-content: space-between !important;
 }
 
 .m-gap-10 {
@@ -50,8 +66,22 @@ page {
   gap: 20px;
 }
 
+.m-gap-29 {
+  gap: 29px;
+}
+
+.m-gap-30 {
+  gap: 30px;
+}
+
 .m-gap-40 {
   gap: 40px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 定位 */
@@ -79,8 +109,9 @@ page {
 }
 
 .pd-side-20 {
-  padding-left: 20px;
-  padding-right: 20px;
+  box-sizing: border-box !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }
 
 .pd-side-30 {
@@ -91,6 +122,14 @@ page {
 .pd-side-40 {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.pd-16 {
+  padding: 16px;
+}
+
+.m-top-16 {
+  margin-top: 16px;
 }
 
 .m-top-20 {
@@ -124,9 +163,28 @@ page {
   border-radius: 8px;
 }
 
+.m-circular-angle-10 {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 .m-circular-angle-12 {
   border-radius: 12px;
   overflow: hidden;
+}
+
+.m-circular-angle-22 {
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.m-circular-angle-25 {
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.m-circular-angle-50 {
+  border-radius: 50%;
 }
 
 /* Text 文本 文字 */
@@ -135,6 +193,10 @@ page {
   height: 12px;
   background: #3C64F6;
   border-radius: 4px;
+}
+
+.m-center {
+  text-align: center;
 }
 
 /* 字体颜色 */
@@ -150,6 +212,10 @@ page {
   color: #00000044;
 }
 
+.m-fc-white45 {
+  color: #ffffff45;
+}
+
 /* 字体大小 */
 .m-fz-20 {
   font-size: 20px;
@@ -157,4 +223,54 @@ page {
 
 .m-fz-12 {
   font-size: 12px;
+}
+
+.m-fz-10 {
+  font-size: 10px;
+}
+
+/* 背景颜色 */
+.m-bg-main {
+  background-color: #3C64F6;
+}
+
+.m-bg-grey {
+  background-color: #F2F2F2;
+}
+
+.m-bg-F2F2F2 {
+  background-color: #F2F2F2;
+}
+
+.m-bg-black {
+  background-color: #000000;
+}
+
+.m-bg-black33 {
+  background-color: #333333;
+}
+
+.m-bg-white {
+  background-color: #FFFFFF;
+}
+
+/* 阴影 */
+.btn-shadow {
+  box-shadow: 0px 4px 8px 0px rgba(198, 198, 198, 0.5);
+}
+
+.btn-shadow-main {
+  box-shadow: 0px 4px 8px 0px rgba(60, 100, 246, 0.5);
+}
+
+.btn-shadow-grey {
+  box-shadow: 0px 4px 8px 0px #F2F2F2;
+}
+
+.btn-shadow-black {
+  box-shadow: 0px 4px 8px 0px rgba(51, 51, 51, 0.5);
+}
+
+.btn-shadow-white {
+  box-shadow: 0px 4px 8px 0px rgba(198, 198, 198, 0.5);
 }

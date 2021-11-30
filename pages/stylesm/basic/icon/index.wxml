@@ -1,2 +1,18 @@
 <!--pages/stylesm/basic/icon/index.wxml-->
-<m-header title="{{headerTitle}}" />
+
+<view class="m-flex-r pd-side-16 m-top-16">
+  <view class="edge-left-box"></view>
+  <text class="m-fc-3C64F6 m-left-8 m-fz-20">图标类型</text>
+</view>
+
+<view class="m-flex-c pd-side-16 m-top-16 m-gap-15">
+  <view class="m-flex-r m-jc-sb pd-side-20 m-circular-angle-12" style="width: 100%;height: 54px; background-color: #3C64F610;" wx:for="{{list}}" wx:key="index">
+    <text>{{item.text}}</text>
+    <image src="/static/svgs/arrow-round.svg" style="width: 20px; height: 20px;"></image>
+  </view>
+</view>
+<!--  -->
+<view class="m-flex-r pd-side-16 m-top-32">
+  <view class="edge-left-box"></view>
+  <text class="m-fc-3C64F6 m-left-8 m-fz-20">用法示例</text>
+</view>

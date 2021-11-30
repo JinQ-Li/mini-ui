@@ -1,2 +1,78 @@
 <!--pages/stylesm/basic/text/index.wxml-->
-<text>pages/stylesm/basic/text/index.wxml</text>
+<view class="pd-side-16 m-top-16 m-bottom-32">
+  <view class="m-flex-r ">
+    <view class="edge-left-box"></view>
+    <text class="m-fc-3C64F6 m-left-8 m-fz-20">文字大小</text>
+  </view>
+
+  <view class="m-flex-c m-gap-20 pd-side-16 m-top-16">
+    <View class="pd-side-16 m-circular-angle-12" style="width: 100%; background-color: #3C64F610;">
+      <m-text text="text-12px" size="{{12}}" color="#00000045" align="left" style="margin-top: 12px;" />
+      <m-text text="说明文本，标签文字等" size="{{12}}" style="margin-top: 12px;margin-bottom: 16px;" />
+    </View>
+    <View class="pd-side-16 m-circular-angle-12" style="width: 100%; background-color: #3C64F610; ">
+      <m-text text="text-14px" size="{{12}}" color="#00000045" align="left" style="margin-top: 12px;" />
+      <m-text text="说明文本，标签文字等" size="{{14}}" style="margin-top: 12px;margin-bottom: 16px;" />
+    </View>
+    <View class="pd-side-16 m-circular-angle-12" style="width: 100%; background-color: #3C64F610; ">
+      <m-text text="text-16px" size="{{12}}" color="#00000045" align="left" style="margin-top: 12px;" />
+      <m-text text="说明文本，标签文字等" size="{{16}}" style="margin-top: 12px;margin-bottom: 16px;" />
+    </View>
+    <View class="pd-side-16 m-circular-angle-12" style="width: 100%; background-color: #3C64F610; ">
+      <m-text text="text-18px" size="{{12}}" color="#00000045" align="left" style="margin-top: 12px;" />
+      <m-text text="说明文本，标签文字等" size="{{18}}" style="margin-top: 12px;margin-bottom: 16px;" />
+    </View>
+    <View class="pd-side-16 m-circular-angle-12" style="width: 100%; background-color: #3C64F610">
+      <m-text text="text-20px" size="{{12}}" color="#00000045" align="left" style="margin-top: 12px;" />
+      <m-text text="说明文本，标签文字等" size="{{20}}" color="#FA5151" style="margin-top: 12px; margin-bottom: 16px;" />
+    </View>
+  </view>
+
+  <view class="m-flex-r m-top-32">
+    <view class="edge-left-box"></view>
+    <text class="m-fc-3C64F6 m-left-8 m-fz-20">文字截断</text>
+  </view>
+
+  <view class="m-top-16 pd-16 m-circular-angle-12" style="background-color: #3C64F610;">
+    <m-text text="页面默认字号，用于摘要或阅读文本，超出截断" isTruncation="{{true}}" w="{{300}}" h="{{20}}" style="overflow: hidden; white-space: normal; text-overflow: ellipsis;" />
+  </view>
+
+  <!--  -->
+  <view class="m-flex-r m-top-32">
+    <view class="edge-left-box"></view>
+    <text class="m-fc-3C64F6 m-left-8 m-fz-20">文字对齐</text>
+  </view>
+
+  <view class="m-top-16 pd-16 m-circular-angle-12" style="background-color:#3C64F610 ;">
+    <m-text text="页面默认字号，用于摘要或阅读文本" align="left" />
+    <m-text text="页面默认字号，用于摘要或阅读文本" style="margin-top: 20px; margin-bottom: 20px;" />
+    <m-text text="页面默认字号，用于摘要或阅读文本" align="right" />
+  </view>
+  <!--  -->
+  <view class="m-flex-r m-top-32">
+    <view class="edge-left-box"></view>
+    <text class="m-fc-3C64F6 m-left-8 m-fz-20">特殊文字</text>
+  </view>
+  <view class="m-flex-c m-gap-20 pd-side-16 m-top-16">
+    <View class="pd-side-16 m-circular-angle-12" style="width: 100%; background-color: #3C64F610;">
+      <m-text text="价格文本，利用伪元素添加“¥”符号" size="{{12}}" color="#00000045" align="left" style="margin-top: 12px;" />
+      <m-text text="80" size="{{12}}" style="margin-top: 12px;margin-bottom: 16px;" />
+    </View>
+    <View class="pd-side-16 m-circular-angle-12" style="width: 100%; background-color: #3C64F610; ">
+      <m-text text="text-14px" size="{{12}}" color="#00000045" align="left" style="margin-top: 12px;" />
+      <m-text text="说明文本，标签文字等" size="{{14}}" style="margin-top: 12px;margin-bottom: 16px;" />
+    </View>
+    <View class="pd-side-16 m-circular-angle-12" style="width: 100%; background-color: #3C64F610; ">
+      <m-text text="text-16px" size="{{12}}" color="#00000045" align="left" style="margin-top: 12px;" />
+      <m-text text="说明文本，标签文字等" size="{{16}}" style="margin-top: 12px;margin-bottom: 16px;" />
+    </View>
+    <View class="pd-side-16 m-circular-angle-12" style="width: 100%; background-color: #3C64F610; ">
+      <m-text text="text-18px" size="{{12}}" color="#00000045" align="left" style="margin-top: 12px;" />
+      <m-text text="说明文本，标签文字等" size="{{18}}" style="margin-top: 12px;margin-bottom: 16px;" />
+    </View>
+    <View class="pd-side-16 m-circular-angle-12" style="width: 100%; background-color: #3C64F610">
+      <m-text text="text-20px" size="{{12}}" color="#00000045" align="left" style="margin-top: 12px;" />
+      <m-text text="说明文本，标签文字等" size="{{20}}" color="#FA5151" style="margin-top: 12px; margin-bottom: 16px;" />
+    </View>
+  </view>
+</view>

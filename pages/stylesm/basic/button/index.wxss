@@ -1,1 +1,5 @@
 /* pages/stylesm/basic/button/index.wxss */
+.m-flex-r {
+  align-items: center;
+  justify-content: center;
+}

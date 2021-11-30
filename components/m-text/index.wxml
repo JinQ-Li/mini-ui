@@ -1,0 +1,6 @@
+<!--components/m-text/index.wxml-->
+
+<view style="text-align: {{align?align:'center'}}; width: 100%; {{style}}" wx:if="{{!isTruncation}}">
+  <text style="color: {{color?color:'black'}};font-size: {{size? size: 16}}px;">{{text}}</text>
+</view>
+<view style="color: {{color?color:'black'}};font-size: {{size? size: 16}}px;width: {{w}}px;height: {{h}}px; {{style}}" wx:if="{{isTruncation}}">{{text}}</view>
