@@ -33,7 +33,7 @@
     </view>
     <view class="m-flex-r m-gap-29 m-top-16" style="width: 100%;">
       <view class="m-bg-grey m-r-3 flex-center m-circular-angle-10 m-fz-10 m-fc-black44" style="height: 20px;">小尺寸</view>
-      <view class="m-bg-grey m-r-3 flex-center m-circular-angle-25 m-fc-black44" style="height: 32px;">默认</view>
+      <view class="m-bg-grey m-r-3 flex-center m-circular-angle-25 m-fc-black44 btn" style="height: 32px;">默认</view>
       <view class="m-bg-grey m-r-3 flex-center m-circular-angle-25 m-fc-black44" style="height: 44px;">大尺寸</view>
     </view>
   </view>
